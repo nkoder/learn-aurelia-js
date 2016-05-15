@@ -3,5 +3,6 @@
 .idea/*
 !.idea/codeStyleSettings.xml
 !.idea/dictionaries
+jspm_packages/
 node_modules/
 tmp/
