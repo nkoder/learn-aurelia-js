@@ -12,6 +12,9 @@
   "license": "CC0-1.0",
   "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
   "main": "src/main.js",
+  "scripts": {
+    "start": "http-server -o -c-1"
+  },
   "jspm": {
     "dependencies": {
       "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-beta.1.1.0",
@@ -44,5 +47,8 @@
         "main": "client/shim.min"
       }
     }
+  },
+  "devDependencies": {
+    "http-server": "0.9.0"
   }
 }
